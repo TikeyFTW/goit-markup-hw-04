@@ -190,9 +190,8 @@ a {
   background-color: var(--white);
   width: calc((100% - 3 * 24px) / 4);
   border-radius: 0 0 5px 5px;
-  box-shadow: 0px 2px 1px 0px #2e2f4214;
-  box-shadow: 0px 1px 1px 0px #2e2f4229;
-  box-shadow: 0px 1px 6px 0px #2e2f4214;
+  box-shadow: 0px 2px 1px 0px #2e2f4214, 0px 1px 1px 0px #2e2f4229,
+    0px 1px 6px 0px #2e2f4214;
 }
 .footer {
   background-color: var(--navyblue);
@@ -238,6 +237,8 @@ a {
   background-color: var(--ocean);
   color: var(--white);
   border: 1px solid transparent;
+  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12),
+    0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
 }
 .list .link {
   text-decoration: none;
@@ -359,4 +360,10 @@ img {
   padding: 32px 16px;
   border: 1px solid var(--cornflower);
   border-top: none;
+}
+.projects-apps:focus,
+.projects-apps:hover {
+  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
+    0px 1px 1px 0px rgba(46, 47, 66, 0.16),
+    0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
