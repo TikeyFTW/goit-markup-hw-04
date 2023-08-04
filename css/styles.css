@@ -7,6 +7,7 @@
   --white: #fff;
   --ocean: #404bbf;
   --cornflower: #e7e9fc;
+  --lightslate: #8e8f99;
 }
 body {
   font-family: var(--primaryfont);
@@ -366,4 +367,41 @@ img {
   box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
     0px 1px 1px 0px rgba(46, 47, 66, 0.16),
     0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+}
+.features-icons {
+  display: flex;
+  width: 264px;
+  height: 112px;
+  flex-shrink: 0;
+  border-radius: 4px;
+  background: var(--cloud);
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 8px;
+  gap: 24px;
+}
+.consumers {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+.consumers .list {
+  display: flex;
+  gap: 24px;
+}
+
+.consumers-icons {
+  width: 168px;
+  height: 88px;
+  display: flex;
+  flex-shrink: 0;
+  border-radius: 4px;
+  border: 1px solid var(--lightslate);
+  justify-content: center;
+  align-items: center;
+
+  margin-top: 72px;
+}
+.consumers-icons:hover {
+  cursor: pointer;
+  fill: var(--ocean);
 }
