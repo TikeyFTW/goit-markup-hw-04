@@ -391,16 +391,15 @@ img {
 }
 
 .consumers-icons {
-  width: 168px;
-  height: 88px;
   display: flex;
   flex-shrink: 0;
   border-radius: 4px;
   border: 1px solid var(--lightslate);
   justify-content: center;
   align-items: center;
-  fill: #8e8f99;
+  fill: var(--lightslate);
   margin-top: 72px;
+  padding: 16px 32px 16px 32px;
 }
 .consumers-icons:hover {
   cursor: pointer;
