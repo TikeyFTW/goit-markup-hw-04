@@ -399,12 +399,13 @@ img {
   border: 1px solid var(--lightslate);
   justify-content: center;
   align-items: center;
-
+  fill: #8e8f99;
   margin-top: 72px;
 }
 .consumers-icons:hover {
   cursor: pointer;
   fill: var(--ocean);
+  border-color: var(--ocean);
 }
 .team-icons-listitems {
   width: 40px;
