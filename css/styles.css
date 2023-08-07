@@ -423,7 +423,7 @@ img {
 }
 .team-icons-link:focus,
 .team-icons-link:hover {
-  background-color: var(--green);
+  background-color: var(--ocean);
   cursor: pointer;
 }
 
